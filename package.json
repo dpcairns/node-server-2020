@@ -1,0 +1,23 @@
+{
+  "name": "server-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpcairns/node-server-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpcairns/node-server-2020/issues"
+  },
+  "homepage": "https://github.com/dpcairns/node-server-2020#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
