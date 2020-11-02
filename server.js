@@ -1,6 +1,12 @@
+require('dotenv').config();
+
 const express = require('express'); // how we import in node
 const app = express();
-const port = 3000;
+const cors = require('cors');
+ 
+app.use(cors()); // middleware -- add CORS (Cross-Origin) headers to every request
+
+const port = process.env.PORT;
 
 app.get('/', (req, res) => {
     console.log(new Date());
@@ -23,7 +29,7 @@ app.get('/drinks', (req, res) => {
             name: 'beer'
         }, 
         {
-            name: 'sprite'
+            name: 'crystal diet pepsi'
         }
     ];
 
